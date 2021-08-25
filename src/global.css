@@ -110,6 +110,11 @@
     width: 38vw;
     height: 200px;
   }
+
+    .input-text {
+    width: 50%;
+    height: 35px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -121,5 +126,10 @@
   .card-image{
     width: 80vw;
     height: 200px;
-}
+  }
+
+  .input-text {
+    width: 70%;
+    height: 35px;
+  }
 }

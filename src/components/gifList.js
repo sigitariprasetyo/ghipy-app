@@ -7,7 +7,7 @@ const GifList = (props) => {
     <div className="giflist-box-content">
       {
         data.map((el, i) => {
-          return <GifItem key={i} id={el.id} url={el.url} />
+          return <GifItem key={i} url={el} />
         })
       }
     </div>

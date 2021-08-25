@@ -4,13 +4,13 @@ import GifList from "../../components/gifList";
 import Loading from "../../components/loading";
 
 const SerachGiphy = () => {
-  const { ironGiphy, loading } = useGiphyData()
+  const { data, loading } = useGiphyData()
   return (
     <div className="page-search-container">
       <h2>SEARCH YOUR GIPHY</h2>
       <SearchBar />
       {loading ? <Loading /> : null}
-      {ironGiphy.length > 0 ? <GifList data={ironGiphy} /> : null}
+      {data.length > 0 ? <GifList data={data} /> : null}
     </div>
   )
 }

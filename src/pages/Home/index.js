@@ -4,7 +4,7 @@ import logo from '../../giphy.png';
 function Home() {
   return (
     <div className="container">
-      <h1>WECOME TO YOUR GIPHY</h1>
+      <h1 style={{ marginTop: -80 }}>WECOME TO YOUR GIPHY</h1>
       <div className="box-img">
         <img className="logo" src={logo} alt="logo" />
       </div>
