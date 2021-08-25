@@ -27,7 +27,6 @@ const GiphyData = (props) => {
       })
         .then(({ data }) => {
           setIronGiphy(data.data.map(gif => gif.images.original.url))
-          console.log(data.data.map(gif => gif.images.original.url));
         })
         .catch(err => {
           console.log(err);

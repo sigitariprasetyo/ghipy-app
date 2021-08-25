@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useGiphyData } from "../../context/giphyContext";
 import GifList from "../../components/gifList"
 
@@ -6,7 +7,8 @@ const IronGiphy = () => {
 
   return (
     <div className="ironman-giphy-container">
-      <h1>IRON MAN GIPHY</h1>
+      <Link className="link" to="/">HOME</Link>
+      <h1 style={{ marginTop: 10 }}>IRON MAN GIPHY</h1>
       <GifList data={ironGiphy} />
     </div>
   )

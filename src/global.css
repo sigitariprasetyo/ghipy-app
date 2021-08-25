@@ -3,7 +3,6 @@
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-bottom: 20px;
   color: white;
   min-height: 100vh;
   display: flex;
@@ -38,11 +37,11 @@
 }
 
 .giflist-box-content{
-  margin-top: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .card-image{
@@ -68,6 +67,7 @@
 
 .box-search {
     margin-top: -20px;
+    margin-bottom: 25px;
     width: 100%;
 }
 
@@ -114,6 +114,12 @@
     .input-text {
     width: 50%;
     height: 35px;
+    margin-top: 15px;
+  }
+
+  .logo {
+    height: 10vh;
+    width: 50vw;
   }
 }
 
@@ -132,4 +138,9 @@
     width: 70%;
     height: 35px;
   }
+
+    .logo {
+      height: 9vh;
+      width: 60vw;
+    }
 }
