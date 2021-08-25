@@ -1,5 +1,5 @@
 import Routers from './config/routes'
-import GiphyDataProvider from './contex/giphyContex'
+import GiphyDataProvider from './context/giphyContext'
 import './global.css';
 
 function App() {
