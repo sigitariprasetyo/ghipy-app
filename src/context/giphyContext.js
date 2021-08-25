@@ -45,12 +45,14 @@ const GiphyData = (props) => {
     }
   ])
   const [keysearch, setKeysearch] = useState("")
+  const [loading, setLoading] = useState(false)
 
   const state = {
     data,
     keysearch,
     setKeysearch,
-    ironGiphy
+    ironGiphy,
+    loading
   }
 
   return (
